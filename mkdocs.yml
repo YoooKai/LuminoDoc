@@ -3,6 +3,10 @@ theme:
   name: material
   icon:
     logo: material/wizard-hat
+  favicon: images/favicon.ico
+  font:
+    text: Montserrat
+    code: Red Hat Mono
 
   features:
     - navigation.footer
@@ -28,7 +32,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
       primary: blue grey
-      accent: cyan
+      accent: teal
 
 extra:
   social:
@@ -55,6 +59,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: |
   &copy; 2025 <a href="https://github.com/YoooKai" target="_blank" rel="noopener">Kai</a> &amp; 

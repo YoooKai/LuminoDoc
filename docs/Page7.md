@@ -1,4 +1,4 @@
-# **Manuales de usuario**
+# :simple-superuser: **Manuales de usuario**
 
 ### 1. Instrucciones básicas
 
@@ -158,3 +158,15 @@
     </ul>
   </li>
 </ol>
+
+!!! note
+    **Consejo**: Asegúrate de seguir los pasos de inicio de sesión correctamente para evitar problemas con el acceso.
+
+!!! warning
+    **Advertencia**: Si olvidas tu contraseña, asegúrate de contactar al administrador para solucionarlo.
+
+!!! tip
+    **Sugerencia**: Si no ves las asignaturas en tu página principal, verifica que estés matriculado correctamente.
+
+!!! danger
+    **Error crítico**: Si la página principal no carga correctamente, es posible que haya un problema con la conexión o con el servidor. Contacta al administrador del sistema.

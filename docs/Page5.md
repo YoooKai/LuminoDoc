@@ -1,4 +1,4 @@
-# Pruebas
+# :material-test-tube: Pruebas
 
 ### 1. **Estrategia de Pruebas**
 

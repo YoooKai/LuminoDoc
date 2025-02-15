@@ -1,4 +1,4 @@
-# Diseño del Sistema
+# :fontawesome-solid-person-digging: Diseño del Sistema
 
 ## 1. Arquitectura del Sistema
 
@@ -85,6 +85,36 @@ El proyecto **LUMINO** utiliza un esquema de base de datos relacional compuesto 
 ---
 
 ### **Relaciones entre Entidades**
+
+```mermaid
+erDiagram
+  USER ||--o{ PROFILE : has
+  USER ||--o{ ENROLLMENT : enrolls
+  SUBJECT ||--o{ LESSON : contains
+  SUBJECT ||--o{ ENROLLMENT : has
+  USER {
+    string username
+    string email
+    string password
+  }
+  PROFILE {
+    enum role
+    image avatar
+    string bio
+  }
+  SUBJECT {
+    string code
+    string name
+  }
+  LESSON {
+    string title
+    string content
+  }
+  ENROLLMENT {
+    date enrolled_at
+    int mark
+  }
+```
 
 <ol>
   <li><strong>Profesor y Asignatura (<code>Subject</code>):</strong>

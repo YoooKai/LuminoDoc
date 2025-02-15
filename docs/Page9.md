@@ -1,4 +1,4 @@
-# Conclusión y Futuro
+# :simple-futurelearn: Conclusión y Futuro
 
 ¡Entiendo! Para la sección **Estado actual del proyecto**, puedes resumir el progreso y el alcance cumplido de manera clara y concisa, destacando que se han cumplido todos los requisitos establecidos en el PDF del profesor. Aquí tienes una propuesta de redacción:
 
