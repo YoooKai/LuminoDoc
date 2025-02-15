@@ -1,6 +1,9 @@
 site_name: LuminoDocs
 theme:
   name: material
+  icon:
+    logo: material/wizard-hat
+
   features:
     - navigation.footer
     - navigation.tabs
@@ -16,16 +19,16 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: blue grey
+      accent: teal
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: blue grey
+      accent: cyan
 
 extra:
   social:
