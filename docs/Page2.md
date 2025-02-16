@@ -1,4 +1,4 @@
-# :material-note-alert: Requisitos del proyecto
+# :material-note-alert: Requisitos
 
 ## 1. Requisitos funcionales
 

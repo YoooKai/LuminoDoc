@@ -1,4 +1,4 @@
-# :fontawesome-solid-person-digging: Diseño del Sistema
+# :fontawesome-solid-person-digging: Diseño
 
 ## 1. Arquitectura del Sistema
 
